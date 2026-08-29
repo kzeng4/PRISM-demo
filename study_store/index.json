@@ -1,0 +1,191 @@
+{
+  "schema_version": "consort_synthesis_v1",
+  "created_at": "2026-08-28T22:18:27.129590+00:00",
+  "updated_at": "2026-08-28T23:03:10.756647+00:00",
+  "studies": {
+    "PMC4431679": {
+      "article_id": "PMC4431679",
+      "record_file": "PMC4431679.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.129619+00:00"
+    },
+    "PMC4085478": {
+      "article_id": "PMC4085478",
+      "record_file": "PMC4085478.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.145297+00:00"
+    },
+    "PMC4392313": {
+      "article_id": "PMC4392313",
+      "record_file": "PMC4392313.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.158448+00:00"
+    },
+    "PMC3944682": {
+      "article_id": "PMC3944682",
+      "record_file": "PMC3944682.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.166615+00:00"
+    },
+    "PMC4213545": {
+      "article_id": "PMC4213545",
+      "record_file": "PMC4213545.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.179925+00:00"
+    },
+    "PMC4145439": {
+      "article_id": "PMC4145439",
+      "record_file": "PMC4145439.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.188966+00:00"
+    },
+    "PMC3756454": {
+      "article_id": "PMC3756454",
+      "record_file": "PMC3756454.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.196700+00:00"
+    },
+    "PMC4770816": {
+      "article_id": "PMC4770816",
+      "record_file": "PMC4770816.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.204872+00:00"
+    },
+    "PMC3641608": {
+      "article_id": "PMC3641608",
+      "record_file": "PMC3641608.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.216582+00:00"
+    },
+    "PMC3551223": {
+      "article_id": "PMC3551223",
+      "record_file": "PMC3551223.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.224621+00:00"
+    },
+    "PMC4469977": {
+      "article_id": "PMC4469977",
+      "record_file": "PMC4469977.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.298474+00:00"
+    },
+    "PMC3686261": {
+      "article_id": "PMC3686261",
+      "record_file": "PMC3686261.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.306140+00:00"
+    },
+    "PMC4145444": {
+      "article_id": "PMC4145444",
+      "record_file": "PMC4145444.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.312432+00:00"
+    },
+    "PMC4621368": {
+      "article_id": "PMC4621368",
+      "record_file": "PMC4621368.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.319391+00:00"
+    },
+    "PMC3623038": {
+      "article_id": "PMC3623038",
+      "record_file": "PMC3623038.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.324411+00:00"
+    },
+    "PMC3668094": {
+      "article_id": "PMC3668094",
+      "record_file": "PMC3668094.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.335888+00:00"
+    },
+    "PMC4515982": {
+      "article_id": "PMC4515982",
+      "record_file": "PMC4515982.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.343301+00:00"
+    },
+    "PMC3590447": {
+      "article_id": "PMC3590447",
+      "record_file": "PMC3590447.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.351193+00:00"
+    },
+    "PMC4215282": {
+      "article_id": "PMC4215282",
+      "record_file": "PMC4215282.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.360247+00:00"
+    },
+    "PMC4066691": {
+      "article_id": "PMC4066691",
+      "record_file": "PMC4066691.json",
+      "source": "precomputed_test",
+      "pipeline_stage": "pre_gepa_base_model",
+      "content_hash": null,
+      "updated_at": "2026-08-28T22:18:27.368897+00:00"
+    },
+    "PMC4893095": {
+      "article_id": "PMC4893095",
+      "record_file": "PMC4893095.json",
+      "source": "live_upload",
+      "pipeline_stage": "v26_live_preverifier_v4",
+      "content_hash": "d49563c82630904d",
+      "updated_at": "2026-08-28T22:50:48.710860+00:00"
+    },
+    "PMC4276289": {
+      "article_id": "PMC4276289",
+      "record_file": "PMC4276289.json",
+      "source": "live_upload",
+      "pipeline_stage": "v26_live_preverifier_v4",
+      "content_hash": "ffb58b7da096d784",
+      "updated_at": "2026-08-28T22:58:26.863347+00:00"
+    },
+    "PMC3811149": {
+      "article_id": "PMC3811149",
+      "record_file": "PMC3811149.json",
+      "source": "live_upload",
+      "pipeline_stage": "v26_live_preverifier_v4",
+      "content_hash": "7b2df98265c24d01",
+      "updated_at": "2026-08-28T23:03:10.756640+00:00"
+    }
+  }
+}

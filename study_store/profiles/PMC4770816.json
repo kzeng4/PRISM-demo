@@ -1,0 +1,239 @@
+{
+  "schema_version": "consort_synthesis_v1",
+  "profile_version": "study_profile_v1",
+  "article_id": "PMC4770816",
+  "input_hash": "c0cb94fd5b6b8e3fee4c9a2f096f779011c063325036c9fc316068edc4cd2aab",
+  "generated_at": "2026-08-28T23:36:37.288672+00:00",
+  "study_label": "PAST-BP intensive versus standard blood-pressure targets after stroke/TIA",
+  "objective": {
+    "value": "To determine whether setting a more intensive blood-pressure target in primary care after stroke or TIA would lead to lower blood pressure, as a prelude to a trial assessing stroke recurrence.",
+    "status": "supported",
+    "source_items": [
+      "2b"
+    ],
+    "source_sids": [
+      "S32",
+      "S33"
+    ]
+  },
+  "population": {
+    "value": "Patients on general-practice TIA/stroke registers, recruited from practices in England during 2009-11. Exclusions included baseline systolic blood pressure below 125 mm Hg, use of three or more antihypertensive agents, postural systolic change greater than 20 mm Hg, existing treatment to a 130 mm Hg target, inability to consent, or insufficient evidence of prior stroke/TIA.",
+    "status": "supported",
+    "source_items": [
+      "4a",
+      "4b",
+      "15"
+    ],
+    "source_sids": [
+      "S38",
+      "S39",
+      "S40",
+      "S91",
+      "S100"
+    ]
+  },
+  "intervention": {
+    "value": "Intensive systolic blood-pressure target: below 130 mm Hg, or a 10 mm Hg reduction for patients with baseline systolic blood pressure 125-140 mm Hg. Blood-pressure management used practice-nurse monitoring and general-practitioner treatment modification.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S50",
+      "S52",
+      "S53",
+      "S54",
+      "S57"
+    ]
+  },
+  "comparator": {
+    "value": "Standard systolic blood-pressure target of below 140 mm Hg irrespective of baseline blood pressure, with otherwise identical blood-pressure management.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S51",
+      "S52",
+      "S54",
+      "S57"
+    ]
+  },
+  "duration_follow_up": {
+    "value": "One-year follow-up; blood pressure was measured at baseline, 6 months, and 12 months.",
+    "status": "supported",
+    "source_items": [
+      "6a",
+      "13a",
+      "14a"
+    ],
+    "source_sids": [
+      "S38",
+      "S60",
+      "S89",
+      "S90"
+    ]
+  },
+  "primary_outcome": {
+    "value": "Change in systolic blood pressure between baseline and one year.",
+    "status": "supported",
+    "source_items": [
+      "6a"
+    ],
+    "source_sids": [
+      "S59",
+      "S63"
+    ]
+  },
+  "effect_result": {
+    "value": "At 12 months, the intensive target was associated with a significantly greater reduction in systolic blood pressure: systolic blood pressure was reduced by 16 mm Hg in the intensive-target arm and 13 mm Hg in the standard-target arm. Sensitivity calculations reported between-group differences of -3.2 mm Hg (95% CI -5.8 to -0.64) using the fifth and sixth readings and -3.3 mm Hg (95% CI -5.8 to -0.67) using the second through sixth readings.",
+    "status": "supported",
+    "source_items": [
+      "17a"
+    ],
+    "source_sids": [
+      "S108",
+      "S109",
+      "S110"
+    ]
+  },
+  "safety": {
+    "value": "At 12 months, the most common symptoms showed no significant differences between groups.",
+    "status": "supported",
+    "source_items": [
+      "19"
+    ],
+    "source_sids": [
+      "S122",
+      "S123",
+      "S124"
+    ]
+  },
+  "sample_size": {
+    "randomized": "529",
+    "analyzed": "379 with primary-outcome data at 1 year (182 intensive-target; 197 standard-target)",
+    "planned": "610 (305 per group)",
+    "display": "529 randomized; 379 analyzed for the primary outcome at 1 year; 610 planned",
+    "status": "supported",
+    "source_items": [
+      "7a",
+      "13a",
+      "16"
+    ],
+    "source_sids": [
+      "S71",
+      "S89",
+      "S90"
+    ]
+  },
+  "evidence_questions": [
+    {
+      "question_id": "Q1",
+      "objective": "Determine whether a more intensive blood-pressure target in primary care after stroke or TIA leads to lower blood pressure.",
+      "population": "Patients on general-practice TIA/stroke registers in England.",
+      "intervention": "Intensive systolic blood-pressure target below 130 mm Hg, or a 10 mm Hg reduction for baseline systolic blood pressure 125-140 mm Hg.",
+      "comparator": "Standard systolic blood-pressure target below 140 mm Hg.",
+      "primary_outcome": "Change in systolic blood pressure between baseline and one year.",
+      "source_items": [
+        "2b",
+        "4a",
+        "4b",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S32",
+        "S33",
+        "S38",
+        "S39",
+        "S40",
+        "S50",
+        "S51",
+        "S59"
+      ]
+    }
+  ],
+  "consort_completeness": {
+    "reported": 27,
+    "evaluated": 35,
+    "potentially_missing": 8,
+    "percentage": 0.7714285714285715,
+    "display": "27/35 (77.1%)",
+    "reported_items": [
+      "2a",
+      "2b",
+      "3a",
+      "4a",
+      "4b",
+      "5",
+      "6a",
+      "7a",
+      "8b",
+      "9",
+      "10",
+      "11a",
+      "12a",
+      "12b",
+      "13a",
+      "14a",
+      "15",
+      "16",
+      "17a",
+      "17b",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "25"
+    ],
+    "potentially_missing_items": [
+      "3b",
+      "6b",
+      "7b",
+      "8a",
+      "11b",
+      "13b",
+      "14b",
+      "24"
+    ],
+    "item_status": {
+      "2a": "reported",
+      "2b": "reported",
+      "3a": "reported",
+      "3b": "potentially_missing",
+      "4a": "reported",
+      "4b": "reported",
+      "5": "reported",
+      "6a": "reported",
+      "6b": "potentially_missing",
+      "7a": "reported",
+      "7b": "potentially_missing",
+      "8a": "potentially_missing",
+      "8b": "reported",
+      "9": "reported",
+      "10": "reported",
+      "11a": "reported",
+      "11b": "potentially_missing",
+      "12a": "reported",
+      "12b": "reported",
+      "13a": "reported",
+      "13b": "potentially_missing",
+      "14a": "reported",
+      "14b": "potentially_missing",
+      "15": "reported",
+      "16": "reported",
+      "17a": "reported",
+      "17b": "reported",
+      "18": "reported",
+      "19": "reported",
+      "20": "reported",
+      "21": "reported",
+      "22": "reported",
+      "23": "reported",
+      "24": "potentially_missing",
+      "25": "reported"
+    }
+  }
+}

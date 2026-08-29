@@ -1,0 +1,230 @@
+{
+  "schema_version": "consort_synthesis_v1",
+  "profile_version": "study_profile_v1",
+  "article_id": "PMC3811149",
+  "input_hash": "b52f6897a71a613c8f1fe73463824d0599d9f0a49d794fe4a827951f60991269",
+  "generated_at": "2026-08-28T23:05:14.926963+00:00",
+  "study_label": "RADIATE trial of tocilizumab plus methotrexate after TNF-antagonist failure",
+  "objective": {
+    "value": "To examine the efficacy and safety of tocilizumab with methotrexate in patients with active rheumatoid arthritis who had failed at least one TNF antagonist.",
+    "status": "supported",
+    "source_items": [
+      "2b"
+    ],
+    "source_sids": [
+      "S26"
+    ]
+  },
+  "population": {
+    "value": "Adults (aged 18 years or older) with moderate-to-severe active rheumatoid arthritis for at least 6 months, with inadequate response or intolerance to one or more TNF antagonists within the previous year. Patients had active disease at baseline (swollen joint count at least 6, tender joint count at least 8, and CRP >1.0 mg/dl or ESR >28 mm/h) and had received methotrexate for at least 12 weeks at a stable dose for at least 8 weeks.",
+    "status": "supported",
+    "source_items": [
+      "4a",
+      "15"
+    ],
+    "source_sids": [
+      "S29",
+      "S30",
+      "S32",
+      "S62"
+    ]
+  },
+  "intervention": {
+    "value": "Tocilizumab 8 mg/kg intravenously every 4 weeks plus stable methotrexate (10–25 mg weekly) and folate, or tocilizumab 4 mg/kg intravenously every 4 weeks plus stable methotrexate and folate. Infusions were administered over 1 hour.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S37",
+      "S38",
+      "S39"
+    ]
+  },
+  "comparator": {
+    "value": "Placebo intravenously every 4 weeks plus stable methotrexate (10–25 mg weekly) and folate.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S37",
+      "S39"
+    ]
+  },
+  "duration_follow_up": {
+    "value": "Follow-up through week 24; rescue therapy with tocilizumab 8 mg/kg plus methotrexate was offered at week 16 for treatment failure.",
+    "status": "supported",
+    "source_items": [
+      "5",
+      "6a"
+    ],
+    "source_sids": [
+      "S42",
+      "S45"
+    ]
+  },
+  "primary_outcome": {
+    "value": "ACR20 response at week 24.",
+    "status": "supported",
+    "source_items": [
+      "6a"
+    ],
+    "source_sids": [
+      "S45"
+    ]
+  },
+  "effect_result": {
+    "value": "At week 24, ACR20 responses were 50.0% with tocilizumab 8 mg/kg plus methotrexate and 30.4% with tocilizumab 4 mg/kg plus methotrexate, versus 10.1% with placebo plus methotrexate (both tocilizumab groups versus control, p<0.001).",
+    "status": "supported",
+    "source_items": [
+      "17b"
+    ],
+    "source_sids": [
+      "S73"
+    ]
+  },
+  "safety": {
+    "value": "Overall adverse-event incidence was similar across groups: 84.0% (147/175) with tocilizumab 8 mg/kg, 87.1% (142/163) with tocilizumab 4 mg/kg, and 80.6% (129/160) with placebo. Serious adverse events occurred in 6.3%, 7.4%, and 11.3%, respectively; serious infections occurred in 4.6%, 1.8%, and 3.1%; and there were no deaths. Transient neutropenia occurred in 28.0%, 20.3%, and <1.0%, respectively.",
+    "status": "supported",
+    "source_items": [
+      "19"
+    ],
+    "source_sids": [
+      "S95",
+      "S96",
+      "S99",
+      "S112"
+    ]
+  },
+  "sample_size": {
+    "randomized": null,
+    "analyzed": null,
+    "planned": "450 patients",
+    "display": "Planned: 450 patients; actual randomized and analyzed totals not available from extracted participant-flow/analysis evidence",
+    "status": "ambiguous",
+    "source_items": [
+      "7a",
+      "13a",
+      "13b",
+      "16"
+    ],
+    "source_sids": [
+      "S49",
+      "S63",
+      "S66",
+      "S67",
+      "S68",
+      "S69",
+      "S71"
+    ]
+  },
+  "evidence_questions": [
+    {
+      "question_id": "Q1",
+      "objective": "To assess the efficacy and safety of tocilizumab plus methotrexate after failure of at least one TNF antagonist.",
+      "population": "Adults with moderate-to-severe active rheumatoid arthritis and prior inadequate response or intolerance to one or more TNF antagonists, receiving stable methotrexate.",
+      "intervention": "Tocilizumab 8 mg/kg or 4 mg/kg intravenously every 4 weeks plus methotrexate.",
+      "comparator": "Placebo intravenously every 4 weeks plus methotrexate.",
+      "primary_outcome": "ACR20 response at week 24.",
+      "source_items": [
+        "2b",
+        "4a",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S26",
+        "S29",
+        "S30",
+        "S32",
+        "S37",
+        "S39",
+        "S45"
+      ]
+    }
+  ],
+  "consort_completeness": {
+    "reported": 21,
+    "evaluated": 35,
+    "potentially_missing": 14,
+    "percentage": 0.6,
+    "display": "21/35 (60.0%)",
+    "reported_items": [
+      "2a",
+      "2b",
+      "3a",
+      "4a",
+      "4b",
+      "5",
+      "6a",
+      "7a",
+      "11a",
+      "12a",
+      "13a",
+      "13b",
+      "15",
+      "16",
+      "17a",
+      "17b",
+      "18",
+      "19",
+      "20",
+      "22",
+      "25"
+    ],
+    "potentially_missing_items": [
+      "3b",
+      "6b",
+      "7b",
+      "8a",
+      "8b",
+      "9",
+      "10",
+      "11b",
+      "12b",
+      "14a",
+      "14b",
+      "21",
+      "23",
+      "24"
+    ],
+    "item_status": {
+      "2a": "reported",
+      "2b": "reported",
+      "3a": "reported",
+      "3b": "potentially_missing",
+      "4a": "reported",
+      "4b": "reported",
+      "5": "reported",
+      "6a": "reported",
+      "6b": "potentially_missing",
+      "7a": "reported",
+      "7b": "potentially_missing",
+      "8a": "potentially_missing",
+      "8b": "potentially_missing",
+      "9": "potentially_missing",
+      "10": "potentially_missing",
+      "11a": "reported",
+      "11b": "potentially_missing",
+      "12a": "reported",
+      "12b": "potentially_missing",
+      "13a": "reported",
+      "13b": "reported",
+      "14a": "potentially_missing",
+      "14b": "potentially_missing",
+      "15": "reported",
+      "16": "reported",
+      "17a": "reported",
+      "17b": "reported",
+      "18": "reported",
+      "19": "reported",
+      "20": "reported",
+      "21": "potentially_missing",
+      "22": "reported",
+      "23": "potentially_missing",
+      "24": "potentially_missing",
+      "25": "reported"
+    }
+  }
+}

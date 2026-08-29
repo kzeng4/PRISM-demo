@@ -1,0 +1,254 @@
+{
+  "schema_version": "consort_synthesis_v1",
+  "profile_version": "study_profile_v1",
+  "article_id": "PMC3641608",
+  "input_hash": "95ddf6d3650fe9facc8909399eb2be470d03f39d16c715fc0b9204458eafda05",
+  "generated_at": "2026-08-28T22:36:27.378767+00:00",
+  "study_label": "ARROW factorial trial of monitoring and first-line ART strategies in African children with HIV",
+  "objective": {
+    "value": "To evaluate the long-term effects of routine efficacy and toxicity monitoring and different first-line ART strategies in a factorial design in African children.",
+    "status": "supported",
+    "source_items": [
+      "2b"
+    ],
+    "source_sids": [
+      "S41"
+    ]
+  },
+  "population": {
+    "value": "Previously untreated (except ART for prevention of mother-to-child transmission) children or adolescents aged 3 months to 17 years with HIV who met WHO 2006 criteria for ART initiation, recruited from three centres in Uganda and one in Zimbabwe. Exclusions included acute infections, contraindicated drugs or laboratory abnormalities, likely non-adherence or non-attendance, pregnancy or breastfeeding, and perinatal ART exposure among those younger than 6 months.",
+    "status": "supported",
+    "source_items": [
+      "4a",
+      "4b",
+      "15"
+    ],
+    "source_sids": [
+      "S44",
+      "S45",
+      "S100",
+      "S103"
+    ]
+  },
+  "intervention": {
+    "value": "Factorial interventions: (1) clinically driven monitoring, in which post-randomisation laboratory results were generally returned only when requested for clinical management, versus routine laboratory plus clinical monitoring; and (2) first-line ART strategies comprising group A continuous lamivudine, abacavir, and an NNRTI; group B four-drug induction with lamivudine, abacavir, NNRTI, and zidovudine for 36 weeks followed by lamivudine, abacavir, and NNRTI; or group C the same four-drug induction followed by lamivudine, abacavir, and zidovudine.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S46",
+      "S47",
+      "S51",
+      "S62",
+      "S63"
+    ]
+  },
+  "comparator": {
+    "value": "For monitoring, routine laboratory plus clinical monitoring for toxicity and efficacy versus clinically driven monitoring. For ART strategy, continuous three-drug lamivudine, abacavir, plus NNRTI (group A control) versus the two induction-maintenance strategies (groups B and C).",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S46",
+      "S47"
+    ]
+  },
+  "duration_follow_up": {
+    "value": "Median follow-up to planned trial closure was 4.0 years (IQR 3.7–4.4) in each monitoring and ART-strategy group; maximum follow-up was 5.0 years. ART-strategy co-primary CD4 outcomes were assessed at weeks 72 and 144.",
+    "status": "supported",
+    "source_items": [
+      "5",
+      "6a",
+      "14a"
+    ],
+    "source_sids": [
+      "S47",
+      "S71",
+      "S104"
+    ]
+  },
+  "primary_outcome": {
+    "value": "Monitoring randomisation co-primary endpoints were progression to a new WHO stage 4 event or death and grade 3 or 4 adverse events not solely related to HIV. ART-strategy co-primary endpoints were change in CD4 percentage from randomisation to weeks 72 and 144 and grade 3 or 4 adverse events.",
+    "status": "supported",
+    "source_items": [
+      "6a"
+    ],
+    "source_sids": [
+      "S70",
+      "S71"
+    ]
+  },
+  "effect_result": {
+    "value": "For clinically driven versus routine laboratory monitoring, 47/606 (8%) versus 39/600 (7%) had a new WHO stage 4 event or died (2.0 vs 1.7 per 100 child-years); HR 1.13 (95% CI 0.73–1.73; p=0.59). The absolute difference was 0.32 per 100 child-years (95% CI −0.47 to 1.12), with the upper confidence limit below the prespecified non-inferiority margin of 1.6. Across ART strategy groups, there was no significant difference in mean CD4 percentage change at week 72 (p=0.33) or week 144 (p=0.69).",
+    "status": "supported",
+    "source_items": [
+      "17a",
+      "17b"
+    ],
+    "source_sids": [
+      "S144",
+      "S145",
+      "S146",
+      "S177"
+    ]
+  },
+  "safety": {
+    "value": "For clinically driven versus routine laboratory monitoring, grade 3 or 4 adverse events occurred in 283/606 (47%) versus 282/600 (47%; HR 0.98, 95% CI 0.83–1.16; p=0.83); serious adverse events occurred in 111 (18%) versus 109 (18%; HR 1.30, 95% CI 1.02–1.66; p=0.04). Across ART strategies, grade 3 or 4 adverse events occurred in 157/397 (40%) in group A, 190/404 (47%) in group B, and 218/405 (54%) in group C; HR B:A 1.32 (95% CI 1.07–1.63) and C:A 1.58 (95% CI 1.29–1.94), global p=0.0001. ART-modifying adverse events occurred in 2%, 7%, and 6%, respectively.",
+    "status": "supported",
+    "source_items": [
+      "19"
+    ],
+    "source_sids": [
+      "S162",
+      "S165",
+      "S188",
+      "S193"
+    ]
+  },
+  "sample_size": {
+    "randomized": "1,210 enrolled; after exclusion of one duplicate randomisation and three major eligibility violations, 1,206 children remained assigned (600 routine laboratory monitoring, 606 clinically driven monitoring; 397 group A, 404 group B, 405 group C).",
+    "analyzed": null,
+    "planned": "1,200 children",
+    "display": "Planned: 1,200; enrolled: 1,210; assigned after exclusions: 1,206",
+    "status": "ambiguous",
+    "source_items": [
+      "7a",
+      "13a",
+      "13b",
+      "14a"
+    ],
+    "source_sids": [
+      "S75",
+      "S76",
+      "S102",
+      "S101"
+    ]
+  },
+  "evidence_questions": [
+    {
+      "question_id": "Q1",
+      "objective": "To evaluate the long-term effect of routine efficacy and toxicity monitoring in African children.",
+      "population": "Previously untreated children or adolescents aged 3 months to 17 years with HIV meeting WHO 2006 criteria for ART initiation in Uganda and Zimbabwe.",
+      "intervention": "Clinically driven monitoring.",
+      "comparator": "Routine laboratory plus clinical monitoring for toxicity and efficacy.",
+      "primary_outcome": "New WHO stage 4 event or death; grade 3 or 4 adverse events not solely related to HIV.",
+      "source_items": [
+        "2b",
+        "4a",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S41",
+        "S44",
+        "S46",
+        "S70"
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "objective": "To evaluate the long-term effect of different first-line ART strategies in African children.",
+      "population": "Previously untreated children or adolescents aged 3 months to 17 years with HIV meeting WHO 2006 criteria for ART initiation in Uganda and Zimbabwe.",
+      "intervention": "Induction-maintenance ART: four-drug lamivudine, abacavir, NNRTI, and zidovudine for 36 weeks, followed by either lamivudine, abacavir, plus NNRTI (group B) or lamivudine, abacavir, plus zidovudine (group C).",
+      "comparator": "Continuous lamivudine, abacavir, plus NNRTI (group A control).",
+      "primary_outcome": "Change in CD4 percentage from randomisation to weeks 72 and 144; grade 3 or 4 adverse events.",
+      "source_items": [
+        "2b",
+        "4a",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S41",
+        "S44",
+        "S47",
+        "S71"
+      ]
+    }
+  ],
+  "consort_completeness": {
+    "reported": 28,
+    "evaluated": 35,
+    "potentially_missing": 7,
+    "percentage": 0.8,
+    "display": "28/35 (80.0%)",
+    "reported_items": [
+      "2a",
+      "2b",
+      "3a",
+      "4a",
+      "4b",
+      "5",
+      "6a",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9",
+      "10",
+      "11a",
+      "12a",
+      "13a",
+      "13b",
+      "14a",
+      "15",
+      "17a",
+      "17b",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "25"
+    ],
+    "potentially_missing_items": [
+      "3b",
+      "6b",
+      "11b",
+      "12b",
+      "14b",
+      "16",
+      "24"
+    ],
+    "item_status": {
+      "2a": "reported",
+      "2b": "reported",
+      "3a": "reported",
+      "3b": "potentially_missing",
+      "4a": "reported",
+      "4b": "reported",
+      "5": "reported",
+      "6a": "reported",
+      "6b": "potentially_missing",
+      "7a": "reported",
+      "7b": "reported",
+      "8a": "reported",
+      "8b": "reported",
+      "9": "reported",
+      "10": "reported",
+      "11a": "reported",
+      "11b": "potentially_missing",
+      "12a": "reported",
+      "12b": "potentially_missing",
+      "13a": "reported",
+      "13b": "reported",
+      "14a": "reported",
+      "14b": "potentially_missing",
+      "15": "reported",
+      "16": "potentially_missing",
+      "17a": "reported",
+      "17b": "reported",
+      "18": "reported",
+      "19": "reported",
+      "20": "reported",
+      "21": "reported",
+      "22": "reported",
+      "23": "reported",
+      "24": "potentially_missing",
+      "25": "reported"
+    }
+  }
+}

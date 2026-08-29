@@ -1,0 +1,251 @@
+{
+  "schema_version": "consort_synthesis_v1",
+  "profile_version": "study_profile_v1",
+  "article_id": "PMC3590447",
+  "input_hash": "ddab9f5bd2dc67612e1c78c5da9b17a9a807c45daa1cb58b4d2133a6794db301",
+  "generated_at": "2026-08-28T22:33:43.318536+00:00",
+  "study_label": "Immunosuppression versus supportive therapy for idiopathic membranous nephropathy",
+  "objective": {
+    "value": "To test whether immunosuppressive therapy with prednisolone plus chlorambucil or ciclosporin preserves renal function compared with supportive therapy alone in patients with idiopathic membranous nephropathy and declining renal function.",
+    "status": "supported",
+    "source_items": [
+      "2b"
+    ],
+    "source_sids": [
+      "S38"
+    ]
+  },
+  "population": {
+    "value": "Adults aged 18–75 years with biopsy-proven idiopathic membranous nephropathy, creatinine less than 300 μmol/L, and at least a 20% decline in excretory renal function documented over at least 3 months within the previous 2 years. Patients with secondary membranous nephropathy and specified infections, malignancy, treatments, pregnancy-related, or prior-treatment-reaction exclusions were excluded. Participants were recruited from 37 UK renal units.",
+    "status": "supported",
+    "source_items": [
+      "4a",
+      "4b"
+    ],
+    "source_sids": [
+      "S42",
+      "S43",
+      "S44",
+      "S41"
+    ]
+  },
+  "intervention": {
+    "value": "Two immunosuppressive regimens added to supportive therapy: (1) 6 months of prednisolone and chlorambucil, including intravenous methylprednisolone and oral prednisolone during months 1, 3, and 5 and oral chlorambucil during months 2, 4, and 6; or (2) 12 months of ciclosporin starting at 5 mg/kg/day and adjusted to trough concentrations of 100–200 μg/L. Supportive therapy included renin-angiotensin blockade, statins, and anticoagulants as indicated.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S50",
+      "S58",
+      "S59",
+      "S61",
+      "S64"
+    ]
+  },
+  "comparator": {
+    "value": "Supportive therapy alone, including renin-angiotensin blockade, statins, and anticoagulants as indicated.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S50",
+      "S58"
+    ]
+  },
+  "duration_follow_up": {
+    "value": "Patients were followed until the primary endpoint occurred or, if it did not occur, for a minimum of 3 years. Prednisolone plus chlorambucil was administered for 6 months and ciclosporin for 12 months.",
+    "status": "supported",
+    "source_items": [
+      "5",
+      "6a"
+    ],
+    "source_sids": [
+      "S50",
+      "S66"
+    ]
+  },
+  "primary_outcome": {
+    "value": "A further 20% decline in excretory renal function from baseline, calculated with the Cockcroft-Gault equation.",
+    "status": "supported",
+    "source_items": [
+      "6a"
+    ],
+    "source_sids": [
+      "S69"
+    ]
+  },
+  "effect_result": {
+    "value": "For the primary endpoint, prednisolone plus chlorambucil significantly reduced risk versus supportive therapy: 19/33 (58%) versus 31/37 (84%); HR 0.44 (95% CI 0.24–0.78), p=0.0042. Ciclosporin did not differ significantly from supportive therapy: 29/36 (81%) versus 31/37 (84%); HR 1.17 (95% CI 0.70–1.95), p=0.54. The three-group comparison was significant (p=0.003).",
+    "status": "supported",
+    "source_items": [
+      "17a",
+      "17b"
+    ],
+    "source_sids": [
+      "S110",
+      "S111"
+    ]
+  },
+  "safety": {
+    "value": "There were 390 adverse events, including 117 serious events in 54 patients. By 1 year, serious adverse events were significantly more frequent with prednisolone plus chlorambucil than supportive therapy (17/33 [52%] versus 11/38 [29%]; p=0.048); ciclosporin did not differ significantly from supportive therapy (17/37 [46%] versus 11/38 [29%]; p=0.20). Deaths did not differ significantly between groups, and none were classified as likely treatment-related. Malignant disease was reported in 2/33 (6.1%) patients receiving prednisolone plus chlorambucil.",
+    "status": "supported",
+    "source_items": [
+      "19"
+    ],
+    "source_sids": [
+      "S112",
+      "S113",
+      "S115",
+      "S124",
+      "S125",
+      "S126"
+    ]
+  },
+  "sample_size": {
+    "randomized": "108",
+    "analyzed": "106 (intention-to-treat: supportive therapy 37; prednisolone plus chlorambucil 33; ciclosporin 36)",
+    "planned": "116 recruited (105, or 35 per group, before allowing for 10% dropout)",
+    "display": "108 randomized; 106 analyzed; 116 planned",
+    "status": "supported",
+    "source_items": [
+      "7a",
+      "13b",
+      "14a",
+      "16"
+    ],
+    "source_sids": [
+      "S77",
+      "S78",
+      "S95",
+      "S94",
+      "S96"
+    ]
+  },
+  "evidence_questions": [
+    {
+      "question_id": "Q1",
+      "objective": "In adults with idiopathic membranous nephropathy and declining renal function, does prednisolone plus chlorambucil added to supportive therapy preserve renal function compared with supportive therapy alone?",
+      "population": "Adults aged 18–75 years with biopsy-proven idiopathic membranous nephropathy, creatinine less than 300 μmol/L, and documented declining excretory renal function.",
+      "intervention": "Supportive therapy plus 6 months of prednisolone and chlorambucil.",
+      "comparator": "Supportive therapy alone.",
+      "primary_outcome": "Further 20% decline in excretory renal function from baseline.",
+      "source_items": [
+        "2b",
+        "4a",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S38",
+        "S42",
+        "S50",
+        "S69"
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "objective": "In adults with idiopathic membranous nephropathy and declining renal function, does ciclosporin added to supportive therapy preserve renal function compared with supportive therapy alone?",
+      "population": "Adults aged 18–75 years with biopsy-proven idiopathic membranous nephropathy, creatinine less than 300 μmol/L, and documented declining excretory renal function.",
+      "intervention": "Supportive therapy plus 12 months of ciclosporin.",
+      "comparator": "Supportive therapy alone.",
+      "primary_outcome": "Further 20% decline in excretory renal function from baseline.",
+      "source_items": [
+        "2b",
+        "4a",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S38",
+        "S42",
+        "S50",
+        "S69"
+      ]
+    }
+  ],
+  "consort_completeness": {
+    "reported": 24,
+    "evaluated": 35,
+    "potentially_missing": 11,
+    "percentage": 0.6857142857142857,
+    "display": "24/35 (68.6%)",
+    "reported_items": [
+      "2a",
+      "2b",
+      "3b",
+      "4a",
+      "4b",
+      "5",
+      "6a",
+      "7a",
+      "8a",
+      "10",
+      "11a",
+      "12a",
+      "13b",
+      "14a",
+      "15",
+      "16",
+      "17a",
+      "17b",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "25"
+    ],
+    "potentially_missing_items": [
+      "3a",
+      "6b",
+      "7b",
+      "8b",
+      "9",
+      "11b",
+      "12b",
+      "13a",
+      "14b",
+      "18",
+      "24"
+    ],
+    "item_status": {
+      "2a": "reported",
+      "2b": "reported",
+      "3a": "potentially_missing",
+      "3b": "reported",
+      "4a": "reported",
+      "4b": "reported",
+      "5": "reported",
+      "6a": "reported",
+      "6b": "potentially_missing",
+      "7a": "reported",
+      "7b": "potentially_missing",
+      "8a": "reported",
+      "8b": "potentially_missing",
+      "9": "potentially_missing",
+      "10": "reported",
+      "11a": "reported",
+      "11b": "potentially_missing",
+      "12a": "reported",
+      "12b": "potentially_missing",
+      "13a": "potentially_missing",
+      "13b": "reported",
+      "14a": "reported",
+      "14b": "potentially_missing",
+      "15": "reported",
+      "16": "reported",
+      "17a": "reported",
+      "17b": "reported",
+      "18": "potentially_missing",
+      "19": "reported",
+      "20": "reported",
+      "21": "reported",
+      "22": "reported",
+      "23": "reported",
+      "24": "potentially_missing",
+      "25": "reported"
+    }
+  }
+}
