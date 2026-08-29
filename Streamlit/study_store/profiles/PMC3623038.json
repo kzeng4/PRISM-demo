@@ -1,0 +1,221 @@
+{
+  "schema_version": "consort_synthesis_v1",
+  "profile_version": "study_profile_v1",
+  "article_id": "PMC3623038",
+  "input_hash": "8c34cbf0eb9ed3a1a11be98b887a882c39309dd7c0aebd654732c9178f7416c9",
+  "generated_at": "2026-08-28T22:32:49.245941+00:00",
+  "study_label": "Memantine versus placebo for gait impairment in advanced Parkinson disease",
+  "objective": {
+    "value": "To examine the impact of memantine on gait, axial motor symptoms, and L-dopa-induced dyskinesia in advanced Parkinson disease in a double-blind, placebo-controlled pilot study, using sensitive measures and a standardized acute L-dopa challenge.",
+    "status": "supported",
+    "source_items": [
+      "2b"
+    ],
+    "source_sids": [
+      "S26"
+    ]
+  },
+  "population": {
+    "value": "Consecutive patients with Parkinson disease monitored at Lille University Hospital's PD clinic, with severe gait disorder and abnormal forward-leaning stance despite optimal L-dopa treatment. Key exclusions included axial disorders related to inadequate L-dopa/off-periods or induced by STN stimulation, inability to walk unaided on dopaminergic treatment, dementia, and use of another NMDA antagonist.",
+    "status": "supported",
+    "source_items": [
+      "4a",
+      "4b"
+    ],
+    "source_sids": [
+      "S30",
+      "S33",
+      "S34",
+      "S35",
+      "S36",
+      "S37"
+    ]
+  },
+  "intervention": {
+    "value": "Memantine, titrated by 5 mg per week for 30 days, then 20 mg daily at 7:00 for a further 60 days; background medication regimen and STN stimulation settings were kept unchanged.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S46",
+      "S48"
+    ]
+  },
+  "comparator": {
+    "value": "Placebo, administered during the 30-day titration phase and for a further 60 days.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S46"
+    ]
+  },
+  "duration_follow_up": {
+    "value": "90-day study-medication course: 30-day dose titration followed by 60 days at the daily study dose. Assessments were conducted before and after the course.",
+    "status": "supported",
+    "source_items": [
+      "3a",
+      "5",
+      "6a"
+    ],
+    "source_sids": [
+      "S39",
+      "S46",
+      "S57"
+    ]
+  },
+  "primary_outcome": {
+    "value": "Change in stride length (m) under on-L-dopa conditions.",
+    "status": "supported",
+    "source_items": [
+      "6a"
+    ],
+    "source_sids": [
+      "S50"
+    ]
+  },
+  "effect_result": {
+    "value": "Not available from extracted CONSORT evidence",
+    "status": "unavailable",
+    "source_items": [],
+    "source_sids": []
+  },
+  "safety": {
+    "value": "There were no significant safety differences between memantine and placebo. Other than slight worsening of pre-existing alopecia in one female patient, no adverse events were reported; drowsiness did not change significantly during memantine treatment.",
+    "status": "supported",
+    "source_items": [
+      "19"
+    ],
+    "source_sids": [
+      "S89",
+      "S90",
+      "S91"
+    ]
+  },
+  "sample_size": {
+    "randomized": "25 patients were prospectively enrolled; the number randomized is not explicitly stated in the extracted evidence.",
+    "analyzed": "24 patients in the final efficacy analysis",
+    "planned": "14 patients per group (28 total)",
+    "display": "25 enrolled; 24 analyzed; 28 planned (14/group)",
+    "status": "ambiguous",
+    "source_items": [
+      "7a",
+      "13a",
+      "13b",
+      "16"
+    ],
+    "source_sids": [
+      "S68",
+      "S69",
+      "S80",
+      "S81"
+    ]
+  },
+  "evidence_questions": [
+    {
+      "question_id": "Q1",
+      "objective": "To examine the impact of memantine on gait, axial motor symptoms, and L-dopa-induced dyskinesia in advanced Parkinson disease.",
+      "population": "Patients with Parkinson disease with severe gait disorder and abnormal forward-leaning stance despite optimal L-dopa treatment.",
+      "intervention": "Memantine titrated for 30 days and then administered at 20 mg daily for 60 days.",
+      "comparator": "Placebo.",
+      "primary_outcome": "Change in stride length under on-L-dopa conditions.",
+      "source_items": [
+        "2b",
+        "4a",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S26",
+        "S33",
+        "S46",
+        "S50"
+      ]
+    }
+  ],
+  "consort_completeness": {
+    "reported": 25,
+    "evaluated": 35,
+    "potentially_missing": 10,
+    "percentage": 0.7142857142857143,
+    "display": "25/35 (71.4%)",
+    "reported_items": [
+      "2a",
+      "2b",
+      "3a",
+      "4a",
+      "4b",
+      "5",
+      "6a",
+      "7a",
+      "8a",
+      "8b",
+      "10",
+      "11a",
+      "11b",
+      "12a",
+      "13a",
+      "13b",
+      "14a",
+      "15",
+      "16",
+      "17a",
+      "19",
+      "20",
+      "22",
+      "23",
+      "25"
+    ],
+    "potentially_missing_items": [
+      "3b",
+      "6b",
+      "7b",
+      "9",
+      "12b",
+      "14b",
+      "17b",
+      "18",
+      "21",
+      "24"
+    ],
+    "item_status": {
+      "2a": "reported",
+      "2b": "reported",
+      "3a": "reported",
+      "3b": "potentially_missing",
+      "4a": "reported",
+      "4b": "reported",
+      "5": "reported",
+      "6a": "reported",
+      "6b": "potentially_missing",
+      "7a": "reported",
+      "7b": "potentially_missing",
+      "8a": "reported",
+      "8b": "reported",
+      "9": "potentially_missing",
+      "10": "reported",
+      "11a": "reported",
+      "11b": "reported",
+      "12a": "reported",
+      "12b": "potentially_missing",
+      "13a": "reported",
+      "13b": "reported",
+      "14a": "reported",
+      "14b": "potentially_missing",
+      "15": "reported",
+      "16": "reported",
+      "17a": "reported",
+      "17b": "potentially_missing",
+      "18": "potentially_missing",
+      "19": "reported",
+      "20": "reported",
+      "21": "potentially_missing",
+      "22": "reported",
+      "23": "reported",
+      "24": "potentially_missing",
+      "25": "reported"
+    }
+  }
+}

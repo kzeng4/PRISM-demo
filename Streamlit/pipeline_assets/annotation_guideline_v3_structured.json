@@ -1,0 +1,481 @@
+{
+  "document_title": "CONSORT Sentence Annotation Guidelines",
+  "schema_version": "1.0",
+  "general_annotation_rules": [
+    "Do not annotate sentences that do not clearly fit any category; select no drop-down item.",
+    "Sentence splitting is automatic and may be incorrect. If a relevant sentence is split into multiple parts, annotate every part with the applicable item.",
+    "Normally, do not annotate subsection titles such as “Study design” or “Participants.” Annotate sentences that provide actual checklist content, not sentences that merely name a topic.",
+    "Annotate each item in its usual CONSORT section, such as Trial design (3a) in Methods. If the item appears only elsewhere, annotate it there. For example, Recruitment/Follow-up may appear in Methods rather than Results.",
+    "Items in the Other category—Registration, Funding, and Protocol—may be annotated in any section.",
+    "In the abstract, annotate item 1b when applicable. Also annotate any item mentioned only in the abstract, such as trial registration.",
+    "In the category drop-down, you may type the Item No. from Table 1 instead of scrolling.",
+    "When relevant information appears in a table or figure, annotate its caption if available. Otherwise, annotate the narrative sentence that refers to it.",
+    "Captions may contain irrelevant sentences, such as symbol explanations. Do not annotate those sentences.",
+    "Do not annotate summary sections such as “What this study adds” or “What is already known on this topic” unless they contain items reported nowhere else.",
+    "Some sentences require context to resolve references such as “this difference.” Use that context to interpret the sentence, but annotate only the target sentence, not the supporting sentences, to avoid over-annotation.",
+    "The article title links to the PDF. Use Item Check to review all CONSORT items: green means annotated; red means not annotated. This can help identify missing items.",
+    "Raise difficult items or sentences with the group. These instructions will be expanded as needed."
+  ],
+  "item_specific_rules": {
+    "1a": {
+      "title": "Identification as a randomized trial in the title",
+      "special_rule": "Always annotate the first sentence of the title.",
+      "special_rule_title": "Identification as a randomized trial in the title",
+      "cross_item_guidance": [],
+      "examples": [
+        "Smoking reduction with oral nicotine inhalers: double blind, randomised clinical trial of efficacy and safety"
+      ],
+      "item_id": "1a",
+      "has_special_rule": true,
+      "has_example": true
+    },
+    "1b": {
+      "title": null,
+      "special_rule": "Always annotate the first sentence of the abstract, excluding section headers.",
+      "special_rule_title": "Structured abstract covering trial design, methods, results, and conclusions",
+      "cross_item_guidance": [],
+      "examples": [],
+      "item_id": "1b",
+      "has_special_rule": true,
+      "has_example": false
+    },
+    "2a": {
+      "title": "Scientific background and explanation of rationale",
+      "special_rule": "Background or rationale may span many sentences or paragraphs. Annotate at most two sentences that best explain why the study was undertaken. Unlike most items, this item will likely be assessed at the article level: whether the article describes a rationale.",
+      "special_rule_title": "Scientific background and rationale",
+      "cross_item_guidance": [],
+      "examples": [
+        "Surgery is the treatment of choice for patients with disease stage I and II non-small cell lung cancer (NSCLC)  An NSCLC meta-analysis combined the results from eight randomised trials of surgery versus surgery plus adjuvant cisplatin-based chemotherapy and showed a small, but not significant (p=0.08), absolute survival benefit of around 5% at 5 years (from 50% to 55%). At the time the current trial was designed (mid-1990s), adjuvant chemotherapy had not become standard clinical practice  The clinical rationale for neo-adjuvant chemotherapy is three-fold: regression of the primary cancer could be achieved thereby facilitating and simplifying or reducing subsequent surgery; undetected micro-metastases could be dealt with at the start of treatment; and there might be inhibition of the putative stimulus to residual cancer by growth factors released by surgery and by subsequent wound healing The current trial was therefore set up to compare, in patients with resectable NSCLC, surgery alone versus three cycles of platinum-based chemotherapy followed by surgery in terms of overall survival, quality of life, pathological staging, resectability rates, extent of surgery, and time to and site of relapse."
+      ],
+      "item_id": "2a",
+      "has_special_rule": true,
+      "has_example": true
+    },
+    "2b": {
+      "title": "Specific objectives or hypotheses",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "In the current study we tested the hypothesis that a policy of active management of nulliparous labour would: 1. reduce the rate of caesarean section, 2. reduce the rate of prolonged labour; 3. not influence maternal satisfaction with the birth experience."
+      ],
+      "item_id": "2b",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "3a": {
+      "title": "Description of trial design (such as parallel, factorial) including allocation ratio",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "This was a multicenter, stratified (6 to 11 years and 12 to 17 years of age, with imbalanced randomisation [2:1]), double-blind, placebo-controlled, parallel-group study conducted in the United States (41 sites)."
+      ],
+      "item_id": "3a",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "3b": {
+      "title": "Important changes to methods after trial commencement (such as eligibility criteria), with reasons",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Patients were randomly assigned to one of six parallel groups, initially in 1:1:1:1:1:1 ratio, to receive either one of five otamixaban  regimens  or an active control of unfractionated heparin  an independent Data Monitoring Committee reviewed unblinded data for patient safety; no interim analyses for efficacy or futility were done. During the trial, this committee recommended that the group receiving the lowest dose of otamixaban (0035 mg/kg/h) be discontinued because of clinical evidence of inadequate anticoagulation. The protocol was immediately amended in accordance with that recommendation, and participants were subsequently randomly assigned in 2:2:2:2:1 ratio to the remaining otamixaban and control groups, respectively."
+      ],
+      "item_id": "3b",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "4a": {
+      "title": "Eligibility criteria for participants",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Eligible participants were all adults aged 18 or over with HIV who met the eligibility criteria for antiretroviral therapy according to the Malawian national HIV treatment guidelines (WHO clinical stage III or IV or any WHO stage with a CD4 count <250/mm3) and who were starting treatment with a BMI <18.5. Exclusion criteria were pregnancy and lactation or participation in another supplementary feeding programme."
+      ],
+      "item_id": "4a",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "4b": {
+      "title": "Settings and locations where the data were collected",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "The study took place at the antiretroviral therapy clinic of Queen Elizabeth Central Hospital in Blantyre, Malawi, from January 2006 to April 2007. Blantyre is the major commercial city of Malawi, with a population of 1 000 000 and an estimated HIV prevalence of 27% in adults in 2004."
+      ],
+      "item_id": "4b",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "5": {
+      "title": "The interventions for each group with sufficient details to allow replication, including how and when they were actually administered",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "In POISE, patients received the first dose of the study drug (i.e., oral extended-release metoprolol 100 mg or matching placebo) 2-4 h before surgery. Study drug administration required a heart rate of 50 bpm or more and a systolic blood pressure of 100 mm Hg or greater; these haemodynamics were checked before each administration. If, at any time during the first 6 h after surgery, heart rate was 80 bpm or more and systolic blood pressure was 100 mm Hg or higher, patients received their first postoperative dose (extended-release metoprolol 100 mg or matched placebo) orally. If the study drug was not given during the first 6 h, patients received their first postoperative dose at 6 h after surgery. 12 h after the first postoperative dose, patients started taking oral extended-release metoprolol 200 mg or placebo every day for 30 days. If a patients heart rate was consistently below 45 bpm or their systolic blood pressure dropped below 100 mm Hg, study drug was withheld until their heart rate or systolic blood pressure recovered; the study drug was then restarted at 100 mg once daily. Patients whose heart rate was consistently 45-49 bpm and systolic blood pressure exceeded 100 mm Hg delayed taking the study drug for 12 h."
+      ],
+      "item_id": "5",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "6a": {
+      "title": "Completely defined pre-specified primary and secondary outcome measures, including how and when they were assessed",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [
+        "First distinguish primary outcomes, secondary outcomes, and additional measures. This helps separate items about primary or secondary outcomes from similar items about additional analyses, such as 12a versus 12b."
+      ],
+      "examples": [
+        "The primary endpoint with respect to efficacy in psoriasis was the proportion of patients achieving a 75% improvement in psoriasis activity from baseline to 12 weeks as measured by the PASI [psoriasis area and severity index] Additional analyses were done on the percentage change in PASI scores and improvement in target psoriasis lesions."
+      ],
+      "item_id": "6a",
+      "has_special_rule": true,
+      "has_example": true
+    },
+    "6b": {
+      "title": "Any changes to trial outcomes after the trial commenced, with reasons",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [
+        "First distinguish primary outcomes, secondary outcomes, and additional measures. This helps separate items about primary or secondary outcomes from similar items about additional analyses, such as 12a versus 12b."
+      ],
+      "examples": [
+        "The original primary endpoint was all-cause mortality, but, during a masked analysis, the data and safety monitoring board noted that overall mortality was lower than had been predicted and that the study could not be completed with the sample size and power originally planned. The steering committee therefore decided to adopt co-primary endpoints of all-cause mortality (the original primary endpoint), together with all-cause mortality or cardiovascular hospital admissions (the first prespecified secondary endpoint)."
+      ],
+      "item_id": "6b",
+      "has_special_rule": true,
+      "has_example": true
+    },
+    "7a": {
+      "title": "How sample size was determined",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "To detect a reduction in PHS (postoperative hospital stay) of 3 days (SD 5 days), which is in agreement with the study of Lobo et al with a two-sided 5% significance level and a power of 80%, a sample size of 50 patients per group was necessary, given an anticipated dropout rate of 10%. To recruit this number of patients a 12-month inclusion period was anticipated."
+      ],
+      "item_id": "7a",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "7b": {
+      "title": "When applicable, explanation of any interim analyses and stopping guidelines",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Two interim analyses were performed during the trial. The levels of significance maintained an overall P value of 0.05 and were calculated according to the OBrien-Fleming stopping boundaries. This final analysis used a Z score of 1.985 with an associated P value of 0.0471."
+      ],
+      "item_id": "7b",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "8a": {
+      "title": "Method used to generate the random allocation sequence",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Independent pharmacists dispensed either active or placebo inhalers according to a computer generated randomisation list."
+      ],
+      "item_id": "8a",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "8b": {
+      "title": "Type of randomization; details of any restriction (such as blocking and block size)",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Randomization sequence was created using Stata 9.0 (StataCorp, College Station, TX) statistical software and was stratified by center with a 1:1 allocation using random block sizes of 2, 4, and 6."
+      ],
+      "item_id": "8b",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "9": {
+      "title": "Mechanism used to implement the random allocation sequence (such as sequentially numbered containers), describing any steps taken to conceal the sequence until interventions were assigned",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "The allocation sequence was concealed from the researcher (JR) enrolling and assessing participants in sequentially numbered, opaque, sealed and stapled envelopes. Aluminium foil inside the envelope was used to render the envelope impermeable to intense light. To prevent subversion of the allocation sequence, the name and date of birth of the participant was written on the envelope and a video tape made of the sealed envelope with participant details visible. Carbon paper inside the envelope transferred the information onto the allocation card inside the envelope and a second researcher (CC) later viewed video tapes to ensure envelopes were still sealed when participants names were written on them. Corresponding envelopes were opened only after the enrolled participants completed all baseline assessments and it was time to allocate the intervention."
+      ],
+      "item_id": "9",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "10": {
+      "title": "Who generated the allocation sequence, who enrolled participants, and who assigned participants to interventions",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Determination of whether a patient would be treated by streptomycin and bed-rest (S case) or by bed-rest alone (C case) was made by reference to a statistical series based on random sampling numbers drawn up for each sex at each centre by Professor Bradford Hill; the details of the series were unknown to any of the investigators or to the co-ordinator  After acceptance of a patient by the panel, and before admission to the streptomycin centre, the appropriate numbered envelope was opened at the central office; the card inside told if the patient was to be an S or a C case, and this information was then given to the medical officer of the centre."
+      ],
+      "item_id": "10",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "11a": {
+      "title": "If done, who was blinded after assignment to interventions (for example, participants, care providers, those assessing outcomes) and how",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Whereas patients and physicians allocated to the intervention group were aware of the allocated arm, outcome assessors and data analysts were kept blinded to the allocation."
+      ],
+      "item_id": "11a",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "11b": {
+      "title": "If relevant, description of the similarity of interventions",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Jamieson Laboratories Inc provided 500-mg immediate release niacin in a white, oblong, bisect caplet. We independently confirmed caplet content using high performance liquid chromatography The placebo was matched to the study drug for taste, color, and size, and contained microcrystalline cellulose, silicon dioxide, dicalcium phosphate, magnesium stearate, and stearic acid."
+      ],
+      "item_id": "11b",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "12a": {
+      "title": "Statistical methods used to compare groups for primary and secondary outcomes",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [
+        "First distinguish primary outcomes, secondary outcomes, and additional measures. This helps separate items about primary or secondary outcomes from similar items about additional analyses, such as 12a versus 12b."
+      ],
+      "examples": [
+        "The primary endpoint was change in bodyweight during the 20 weeks of the study in the intention-to-treat population  Secondary efficacy endpoints included change in waist circumference, systolic and diastolic blood pressure, prevalence of metabolic syndrome  We used an analysis of covariance (ANCOVA) for the primary endpoint and for secondary endpoints waist circumference, blood pressure, and patient-reported outcome scores; this was supplemented by a repeated measures analysis. The ANCOVA model included treatment, country, and sex as fixed effects, and bodyweight at randomisation as covariate. We aimed to assess whether data provided evidence of superiority of each liraglutide dose to placebo (primary objective) and to orlistat (secondary objective)."
+      ],
+      "item_id": "12a",
+      "has_special_rule": true,
+      "has_example": true
+    },
+    "12b": {
+      "title": "Methods for additional analyses, such as subgroup analyses and adjusted analyses",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [
+        "First distinguish primary outcomes, secondary outcomes, and additional measures. This helps separate items about primary or secondary outcomes from similar items about additional analyses, such as 12a versus 12b."
+      ],
+      "examples": [
+        "Proportions of patients responding were compared between treatment groups with the Mantel-Haenszel ?2 test, adjusted for the stratification variable, methotrexate use."
+      ],
+      "item_id": "12b",
+      "has_special_rule": true,
+      "has_example": true
+    },
+    "13": {
+      "title": "Participant flow (a diagram is strongly recommended)",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [],
+      "item_id": "13",
+      "has_special_rule": false,
+      "has_example": false
+    },
+    "13a": {
+      "title": "For each group, the numbers of participants who were randomly assigned, received intended treatment, and were analysed for the primary outcome",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [],
+      "item_id": "13a",
+      "has_special_rule": false,
+      "has_example": false
+    },
+    "13b": {
+      "title": "For each group, losses and exclusions after randomisation, together with reasons",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "There was only one protocol deviation, in a woman in the study group. She had an abnormal pelvic measurement and was scheduled for elective caesarean section. However, the attending obstetrician judged a trial of labour acceptable; caesarean section was done when there was no progress in the first stage of labour."
+      ],
+      "item_id": "13b",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "14a": {
+      "title": "Dates defining the periods of recruitment and follow-up",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Age-eligible participants were recruited  from February 1993 to September 1994  Participants attended clinic visits at the time of randomisation (baseline) and at 6-month intervals for 3 years"
+      ],
+      "item_id": "14a",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "14b": {
+      "title": "Why the trial ended or was stopped",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "In January 2000, problems with vaccine supply necessitated the temporary nationwide replacement of the whole cell component of the combined DPT/Hib vaccine with acellular pertussis vaccine. As this vaccine has a different local reactogenicity profile, we decided to stop the trial early"
+      ],
+      "item_id": "14b",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "15": {
+      "title": "A table showing baseline demographic and clinical characteristics for each group",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [],
+      "item_id": "15",
+      "has_special_rule": false,
+      "has_example": false
+    },
+    "16": {
+      "title": "For each group, number of participants (denominator) included in each analysis and whether the analysis was by original assigned groups",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "The primary analysis was intention-to-treat and involved all patients who were randomly assigned"
+      ],
+      "item_id": "16",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "17a": {
+      "title": "For each primary and secondary outcome, results for each group, and the estimated effect size and its precision (such as 95% confidence interval)",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [
+        "First distinguish primary outcomes, secondary outcomes, and additional measures. This helps separate items about primary or secondary outcomes from similar items about additional analyses, such as 12a versus 12b.",
+        "Determine whether the outcome is binary. For example, whether a patient recovered completely is binary; the proportion of patients who recovered is not."
+      ],
+      "examples": [],
+      "item_id": "17a",
+      "has_special_rule": true,
+      "has_example": false
+    },
+    "17b": {
+      "title": "For binary outcomes, presentation of both absolute and relative effect sizes is recommended",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [
+        "First distinguish primary outcomes, secondary outcomes, and additional measures. This helps separate items about primary or secondary outcomes from similar items about additional analyses, such as 12a versus 12b.",
+        "Determine whether the outcome is binary. For example, whether a patient recovered completely is binary; the proportion of patients who recovered is not."
+      ],
+      "examples": [
+        "The risk of oxygen dependence or death was reduced by 16% (95% CI 25% to 7%). The absolute difference was ?6.3% (95% CI ?9.9% to ?2.7%); early administration to an estimated 16 babies would therefore prevent 1 baby dying or being long-term dependent on oxygen (also see table 7)."
+      ],
+      "item_id": "17b",
+      "has_special_rule": true,
+      "has_example": true
+    },
+    "18": {
+      "title": "Results of any other analyses performed, including subgroup analyses and adjusted analyses, distinguishing pre-specified from exploratory",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "On the basis of a study that suggested perioperative ?-blocker efficacy might vary across baseline risk, we prespecified our primary subgroup analysis on the basis of the revised cardiac risk index scoring system. We also did prespecified secondary subgroup analyses based on sex, type of surgery, and use of an epidural or spinal anaesthetic. For all subgroup analyses, we used Cox proportional hazard models that incorporated tests for interactions, designated to be significant at p<0.05  Figure 3 shows the results of our prespecified subgroup analyses and indicates consistency of effects  Our subgroup analyses were underpowered to detect the modest differences in subgroup effects that one might expect to detect if there was a true subgroup effect."
+      ],
+      "item_id": "18",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "19": {
+      "title": "All important harms or unintended effects in each group",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "The proportion of patients experiencing any adverse event was similar between the rBPI21 [recombinant bactericidal/permeability-increasing protein] and placebo groups: 168 (88.4%) of 190 and 180 (88.7%) of 203, respectively, and it was lower in patients treated with rBPI21 than in those treated with placebo for 11 of 12 body systems  the proportion of patients experiencing a severe adverse event, as judged by the investigators, was numerically lower in the rBPI21 group than the placebo group: 53 (27.9%) of 190 versus 74 (36.5%) of 203 patients, respectively. There were only three serious adverse events reported as drug-related and they all occurred in the placebo group."
+      ],
+      "item_id": "19",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "20": {
+      "title": "Trial limitations, addressing sources of potential bias, imprecision, and, if relevant, multiplicity of analyses",
+      "special_rule": "Annotate sentences reporting specific limitations, such as a small sample size. Do not annotate sentences that only state that the study has limitations.",
+      "special_rule_title": "Limitations",
+      "cross_item_guidance": [],
+      "examples": [
+        "The preponderance of male patients (85%) is a limitation of our study  We used bare-metal stents, since drugeluting stents were not available until late during accrual. Although the latter factor may be perceived as a limitation, published data indicate no benefit (either short-term or long-term) with respect to death and myocardial infarction in patients with stable coronary artery disease who receive drug-eluting stents, as compared with those who receive bare-metal stents"
+      ],
+      "item_id": "20",
+      "has_special_rule": true,
+      "has_example": true
+    },
+    "21": {
+      "title": "Generalizability (external validity, applicability) of the trial findings",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "As the intervention was implemented for both sexes, all ages, all types of sports, and at different levels of sports, the results indicate that the entire range of athletes, from young elite to intermediate and recreational senior athletes, would benefit from using the presented training programme for the prevention of recurrences of ankle sprain. By including non-medically treated and medically treated athletes, we covered a broad spectrum of injury severity. This suggests that the present training programme can be implemented in the treatment of all athletes. Furthermore, as it is reasonable to assume that ankle sprains not related to sports are comparable with those in sports, the programme could benefit the general population."
+      ],
+      "item_id": "21",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "22": {
+      "title": "Interpretation consistent with results, balancing benefits and harms, and considering other relevant evidence",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Studies published before 1990 suggested that prophylactic immunotherapy also reduced nosocomial infections in very-low-birth-weight infants. However, these studies enrolled small numbers of patients; employed varied designs, preparations, and doses; and included diverse study populations. In this large multicenter, randomised controlled trial, the repeated prophylactic administration of intravenous immune globulin failed to reduce the incidence of nosocomial infections significantly in premature infants weighing 501 to 1500 g at birth."
+      ],
+      "item_id": "22",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "23": {
+      "title": "Registration number and name of trial registry",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "The trial is registered at ClinicalTrials.gov, number NCT00244842."
+      ],
+      "item_id": "23",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "24": {
+      "title": "Where the full trial protocol can be accessed, if available",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Full details of the trial protocol can be found in the Supplementary Appendix, available with the full text of this article at www.nejm.org."
+      ],
+      "item_id": "24",
+      "has_special_rule": false,
+      "has_example": true
+    },
+    "25": {
+      "title": "Sources of funding and other support (such as supply of drugs), role of funders",
+      "special_rule": null,
+      "special_rule_title": null,
+      "cross_item_guidance": [],
+      "examples": [
+        "Grant support was received for the intervention from Plan International and for the research from the Wellcome Trust and Joint United Nations Programme on HIV/AIDS (UNAIDS). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+      ],
+      "item_id": "25",
+      "has_special_rule": false,
+      "has_example": true
+    }
+  }
+}

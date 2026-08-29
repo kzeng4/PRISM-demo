@@ -1,0 +1,214 @@
+{
+  "schema_version": "consort_synthesis_v1",
+  "profile_version": "study_profile_v1",
+  "article_id": "PMC3756454",
+  "input_hash": "0d0192290761f8e39214325c05016ed690237a6725cc42752cb6d76abbea6418",
+  "generated_at": "2026-08-28T23:35:28.838620+00:00",
+  "study_label": "Etanercept versus saline placebo in recent acute myocardial infarction",
+  "objective": {
+    "value": "To study the effects of the TNF-α receptor antagonist etanercept on peripheral vasomotor and fibrinolytic function and platelet activation in patients presenting with recent acute myocardial infarction.",
+    "status": "supported",
+    "source_items": [
+      "2b"
+    ],
+    "source_sids": [
+      "S35"
+    ]
+  },
+  "population": {
+    "value": "Patients with recent acute myocardial infarction at a tertiary referral cardiac centre: myocardial ischaemia lasting >20 minutes within 24 hours of hospitalisation, ischaemic ECG changes, and troponin-I >0.2 µg/l. Key exclusions included significant comorbidity, active systemic inflammatory disorders, insulin-dependent diabetes, anti-inflammatory drugs other than aspirin, and recent/recurrent infection, tuberculosis, or opportunistic infection within the prior 6 months.",
+    "status": "supported",
+    "source_items": [
+      "4a",
+      "4b"
+    ],
+    "source_sids": [
+      "S39",
+      "S40",
+      "S41",
+      "S8"
+    ]
+  },
+  "intervention": {
+    "value": "Intravenous etanercept 10 mg.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S43"
+    ]
+  },
+  "comparator": {
+    "value": "Saline placebo administered intravenously.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S43"
+    ]
+  },
+  "duration_follow_up": {
+    "value": "Participants were evaluated before treatment and 24 hours after intravenous etanercept or saline placebo.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S43"
+    ]
+  },
+  "primary_outcome": {
+    "value": "Platelet-monocyte aggregate (PMA).",
+    "status": "supported",
+    "source_items": [
+      "6a"
+    ],
+    "source_sids": [
+      "S80"
+    ]
+  },
+  "effect_result": {
+    "value": "PMA and platelet P-selectin expression were similar between groups at baseline. Following etanercept, PMA increased by 50% relative to baseline (30±5% vs 20±3%; p=0.02), whereas PMA was unaffected following saline placebo (28±5% vs 33±6%; p=0.23).",
+    "status": "supported",
+    "source_items": [
+      "17a"
+    ],
+    "source_sids": [
+      "S95",
+      "S96",
+      "S97"
+    ]
+  },
+  "safety": {
+    "value": "No serious adverse events occurred during the study.",
+    "status": "supported",
+    "source_items": [
+      "19"
+    ],
+    "source_sids": [
+      "S86"
+    ]
+  },
+  "sample_size": {
+    "randomized": "26 patients enrolled; the extracted evidence does not explicitly confirm that all 26 were randomized.",
+    "analyzed": "15 underwent vascular assessment (8 randomized to etanercept).",
+    "planned": "At least 12 paired samples were estimated to provide 80% power.",
+    "display": "26 enrolled; 15 underwent vascular assessment (8 etanercept); planned ≥12 paired samples",
+    "status": "ambiguous",
+    "source_items": [
+      "16",
+      "7a"
+    ],
+    "source_sids": [
+      "S100",
+      "S81"
+    ]
+  },
+  "evidence_questions": [
+    {
+      "question_id": "Q1",
+      "objective": "To assess the effects of etanercept on platelet activation, including the primary outcome of platelet-monocyte aggregate, in recent acute myocardial infarction.",
+      "population": "Patients with recent acute myocardial infarction meeting clinical, ECG, and troponin-I inclusion criteria.",
+      "intervention": "Intravenous etanercept 10 mg.",
+      "comparator": "Intravenous saline placebo.",
+      "primary_outcome": "Platelet-monocyte aggregate (PMA).",
+      "source_items": [
+        "2b",
+        "4a",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S35",
+        "S39",
+        "S43",
+        "S80"
+      ]
+    }
+  ],
+  "consort_completeness": {
+    "reported": 20,
+    "evaluated": 35,
+    "potentially_missing": 15,
+    "percentage": 0.5714285714285714,
+    "display": "20/35 (57.1%)",
+    "reported_items": [
+      "2a",
+      "2b",
+      "3a",
+      "4a",
+      "4b",
+      "5",
+      "6a",
+      "7a",
+      "8a",
+      "8b",
+      "9",
+      "12a",
+      "15",
+      "16",
+      "17a",
+      "19",
+      "20",
+      "21",
+      "22",
+      "25"
+    ],
+    "potentially_missing_items": [
+      "3b",
+      "6b",
+      "7b",
+      "10",
+      "11a",
+      "11b",
+      "12b",
+      "13a",
+      "13b",
+      "14a",
+      "14b",
+      "17b",
+      "18",
+      "23",
+      "24"
+    ],
+    "item_status": {
+      "2a": "reported",
+      "2b": "reported",
+      "3a": "reported",
+      "3b": "potentially_missing",
+      "4a": "reported",
+      "4b": "reported",
+      "5": "reported",
+      "6a": "reported",
+      "6b": "potentially_missing",
+      "7a": "reported",
+      "7b": "potentially_missing",
+      "8a": "reported",
+      "8b": "reported",
+      "9": "reported",
+      "10": "potentially_missing",
+      "11a": "potentially_missing",
+      "11b": "potentially_missing",
+      "12a": "reported",
+      "12b": "potentially_missing",
+      "13a": "potentially_missing",
+      "13b": "potentially_missing",
+      "14a": "potentially_missing",
+      "14b": "potentially_missing",
+      "15": "reported",
+      "16": "reported",
+      "17a": "reported",
+      "17b": "potentially_missing",
+      "18": "potentially_missing",
+      "19": "reported",
+      "20": "reported",
+      "21": "reported",
+      "22": "reported",
+      "23": "potentially_missing",
+      "24": "potentially_missing",
+      "25": "reported"
+    }
+  }
+}

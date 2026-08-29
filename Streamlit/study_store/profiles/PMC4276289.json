@@ -1,0 +1,226 @@
+{
+  "schema_version": "consort_synthesis_v1",
+  "profile_version": "study_profile_v1",
+  "article_id": "PMC4276289",
+  "input_hash": "5548a0f27647bdd47871ed6935e43c8aad92490e120ec6806bc384b6d059251e",
+  "generated_at": "2026-08-28T22:59:05.198308+00:00",
+  "study_label": "BREVACTA: subcutaneous tocilizumab versus placebo in rheumatoid arthritis",
+  "objective": {
+    "value": "To characterize the efficacy and safety of subcutaneous tocilizumab (TCZ-SC) 162 mg every other week versus placebo in adults with moderate to severe rheumatoid arthritis with an inadequate response to at least 1 DMARD.",
+    "status": "supported",
+    "source_items": [
+      "2b"
+    ],
+    "source_sids": [
+      "S33"
+    ]
+  },
+  "population": {
+    "value": "Adults aged 18 years or older with rheumatoid arthritis for at least 6 months, moderate to severe active disease (swollen joint count at least 6, tender joint count at least 8, radiographic erosion, and elevated CRP and/or ESR), and inadequate response to at least 1 DMARD. Patients had received at least 1 traditional DMARD at a stable dose for at least 8 weeks; up to 20% could have had inadequate response to an anti-TNF agent.",
+    "status": "supported",
+    "source_items": [
+      "4a",
+      "15"
+    ],
+    "source_sids": [
+      "S40",
+      "S41",
+      "S42",
+      "S96"
+    ]
+  },
+  "intervention": {
+    "value": "Subcutaneous tocilizumab (TCZ-SC) 162 mg every other week for 24 weeks, randomized 2:1; from week 12, eligible patients could receive escape therapy with TCZ-SC 162 mg weekly at investigator discretion.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S51",
+      "S52"
+    ]
+  },
+  "comparator": {
+    "value": "Subcutaneous placebo every other week for 24 weeks; from week 12, eligible patients could receive escape therapy with TCZ-SC 162 mg weekly at investigator discretion.",
+    "status": "supported",
+    "source_items": [
+      "5"
+    ],
+    "source_sids": [
+      "S51",
+      "S52"
+    ]
+  },
+  "duration_follow_up": {
+    "value": "The double-blind treatment period was 24 weeks, followed by a 72-week open-label period. The primary endpoint was assessed at week 24.",
+    "status": "supported",
+    "source_items": [
+      "3a",
+      "5",
+      "6a"
+    ],
+    "source_sids": [
+      "S48",
+      "S51",
+      "S56"
+    ]
+  },
+  "primary_outcome": {
+    "value": "Percentage of patients achieving an American College of Rheumatology 20% improvement response (ACR20) at week 24.",
+    "status": "supported",
+    "source_items": [
+      "6a"
+    ],
+    "source_sids": [
+      "S56"
+    ]
+  },
+  "effect_result": {
+    "value": "At week 24, ACR20 response was 60.9% (95% CI 56.3% to 65.4%) with TCZ-SC versus 31.5% (95% CI 25.4% to 37.7%) with placebo. The weighted between-group difference was 29.5 percentage points (95% CI 22.0 to 37.0; P<0.0001).",
+    "status": "supported",
+    "source_items": [
+      "17b"
+    ],
+    "source_sids": [
+      "S107",
+      "S108"
+    ]
+  },
+  "safety": {
+    "value": "Over 24 weeks, at least 1 adverse event occurred in 62.7% of TCZ-SC and 57.8% of placebo recipients; serious adverse events occurred in 4.6% and 3.7%, respectively. Serious infections occurred in 2.1% and 1.8%; injection-site reactions in 7.1% and 4.1%. Three deaths occurred in the TCZ-SC group and none in the placebo group; all three were reported as related to TCZ treatment.",
+    "status": "supported",
+    "source_items": [
+      "19"
+    ],
+    "source_sids": [
+      "S133",
+      "S135",
+      "S139",
+      "S142",
+      "S151"
+    ]
+  },
+  "sample_size": {
+    "randomized": "656 (TCZ-SC: 437; placebo: 219)",
+    "analyzed": "656 in the intention-to-treat population (TCZ-SC: 437; placebo: 219)",
+    "planned": "600 randomized 2:1 (400:200)",
+    "display": "Randomized/analyzed (ITT): 656 (437 TCZ-SC, 219 placebo); planned: 600",
+    "status": "supported",
+    "source_items": [
+      "7a",
+      "13a",
+      "16"
+    ],
+    "source_sids": [
+      "S81",
+      "S84",
+      "S85"
+    ]
+  },
+  "evidence_questions": [
+    {
+      "question_id": "Q1",
+      "objective": "To characterize the efficacy and safety of subcutaneous tocilizumab 162 mg every other week versus placebo in adults with moderate to severe rheumatoid arthritis with inadequate response to at least 1 DMARD.",
+      "population": "Adults with moderate to severe rheumatoid arthritis and inadequate response to at least 1 DMARD.",
+      "intervention": "Subcutaneous tocilizumab 162 mg every other week.",
+      "comparator": "Subcutaneous placebo every other week.",
+      "primary_outcome": "ACR20 response at week 24.",
+      "source_items": [
+        "2b",
+        "4a",
+        "5",
+        "6a"
+      ],
+      "source_sids": [
+        "S33",
+        "S40",
+        "S41",
+        "S51",
+        "S56"
+      ]
+    }
+  ],
+  "consort_completeness": {
+    "reported": 20,
+    "evaluated": 35,
+    "potentially_missing": 15,
+    "percentage": 0.5714285714285714,
+    "display": "20/35 (57.1%)",
+    "reported_items": [
+      "2a",
+      "2b",
+      "3a",
+      "4a",
+      "5",
+      "6a",
+      "7a",
+      "8b",
+      "12a",
+      "12b",
+      "13a",
+      "13b",
+      "15",
+      "16",
+      "17a",
+      "17b",
+      "18",
+      "19",
+      "20",
+      "22"
+    ],
+    "potentially_missing_items": [
+      "3b",
+      "4b",
+      "6b",
+      "7b",
+      "8a",
+      "9",
+      "10",
+      "11a",
+      "11b",
+      "14a",
+      "14b",
+      "21",
+      "23",
+      "24",
+      "25"
+    ],
+    "item_status": {
+      "2a": "reported",
+      "2b": "reported",
+      "3a": "reported",
+      "3b": "potentially_missing",
+      "4a": "reported",
+      "4b": "potentially_missing",
+      "5": "reported",
+      "6a": "reported",
+      "6b": "potentially_missing",
+      "7a": "reported",
+      "7b": "potentially_missing",
+      "8a": "potentially_missing",
+      "8b": "reported",
+      "9": "potentially_missing",
+      "10": "potentially_missing",
+      "11a": "potentially_missing",
+      "11b": "potentially_missing",
+      "12a": "reported",
+      "12b": "reported",
+      "13a": "reported",
+      "13b": "reported",
+      "14a": "potentially_missing",
+      "14b": "potentially_missing",
+      "15": "reported",
+      "16": "reported",
+      "17a": "reported",
+      "17b": "reported",
+      "18": "reported",
+      "19": "reported",
+      "20": "reported",
+      "21": "potentially_missing",
+      "22": "reported",
+      "23": "potentially_missing",
+      "24": "potentially_missing",
+      "25": "potentially_missing"
+    }
+  }
+}
